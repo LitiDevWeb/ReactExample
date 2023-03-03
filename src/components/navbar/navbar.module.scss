@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  background-color: rgb(47, 47, 47);
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.navbar-info {
+  display: flex;
+  align-items: center;
+
+  h3 {
+    margin-left: 1rem;
+    font-size: 1.3rem;
+  }
+
+  .links {
+    margin-left: 2rem;
+
+    button {
+      font-size: 0.8rem;
+      width: fit-content;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.navbar-interactions {
+  display: flex;
+  align-items: center;
+
+  .icons {
+    margin-right: 0.7rem;
+  }
+
+  input {
+    font-size: 1.1rem;
+    margin-right: 1rem;
+    border-radius: 0.2rem;
+  }
+
+  input::placeholder {
+    font-size: 0.8rem;
+    padding-left: 0.5rem;
+  }
+}

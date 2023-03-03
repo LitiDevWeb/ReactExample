@@ -1,0 +1,18 @@
+.todo-box-container {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.todo-box-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-right: 1rem;
+}
+
+.todo-box-content {
+  font-size: 0.6rem;
+}

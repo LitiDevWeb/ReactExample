@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  min-height: 35vh;
+  color: white;
+  background-color: rgb(47, 47, 47);
+  justify-content: space-evenly;
+}
+
+.usefull-links {
+  margin-top: 4rem;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+
+    button {
+      font-size: 0.8rem;
+      width: fit-content;
+      background: none;
+      border: none;
+      color: white;
+      cursor: pointer;
+    }
+  }
+}
+
+.newsletter {
+  margin-top: 4rem;
+  width: 25rem;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 2rem;
+  }
+}
+
+.contact {
+  margin-top: 4rem;
+  text-align: center;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  .section-content {
+    p {
+      width: 13rem;
+    }
+
+    .socials {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 1rem;
+    }
+  }
+}
